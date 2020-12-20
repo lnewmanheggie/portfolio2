@@ -1,0 +1,80 @@
+* {
+    font-family: 'Noticia Text', serif;
+}
+
+html,
+body {
+    height: 100%;
+    /*  gradient from https://cssgradient.io/ */
+    background: rgb(254,187,255);
+    background: linear-gradient(90deg, rgba(254,187,255,1) 0%, rgba(247,255,145,1) 100%);
+}
+
+.myNav {
+    background-color: rgb(42, 236, 204);
+    box-shadow: 2px 5px 13px #838383; 
+}
+
+footer {
+    border-top: 5px solid rgb(42, 236, 204);
+}
+
+.myCol {
+    margin-top: 7%;
+    margin-bottom: 4%;
+}
+
+/* Home Page */
+
+.card h3 {
+    text-align: center;
+    color: #343a40;
+}
+
+.index img {
+    max-width: 40%;
+    margin-right: 2rem;
+    float: left;
+}
+
+.card p {
+    line-height: 1.7rem;
+}
+
+.card a {
+    color: rgb(31, 180, 155);
+}
+
+.card {
+    box-shadow: 2px 5px 13px #838383; 
+}
+
+/* Portfolio */
+
+.portfolio img {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+/* Contact */
+
+.btn-primary {
+    background-color: rgb(37, 209, 180);
+    border: 0px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(29, 170, 146);
+}
+
+
+@media only screen and (max-width: 770px) {
+    .index img {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+        display:block;
+    }
+}
